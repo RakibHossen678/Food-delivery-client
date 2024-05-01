@@ -1,10 +1,12 @@
+import ExploreMenu from "../../Components/ExploreMenu";
 import Header from "../../Components/Header";
 
 
 const Home = () => {
     return (
-        <div>
+        <div >
             <Header></Header>
+            <ExploreMenu></ExploreMenu>
         </div>
     );
 };

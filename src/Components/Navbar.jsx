@@ -54,13 +54,13 @@ const Navbar = () => {
           {NavLinks}
         </ul>
       </div>
-      <div className="navbar-end space-x-9 ">
+      <div className="navbar-end lg:space-x-9 space-x-4">
         <img src={assets.search_icon} alt="" />
         <div className="relative" >
           <img src={assets.basket_icon} alt="" />
           <div className="absolute min-w-3 min-h-3 bg-[#ff6347] rounded-full -top-2 -right-2"></div>
         </div>
-        <button className="border-[1px] rounded-full text-[#49557e] border-[#ff6347] px-7 py-2 cursor-pointer hover:bg-[#fff4f2] transform transition-[0.3s]">
+        <button className="border-[1px] rounded-full text-[#49557e] border-[#ff6347] lg:px-7 px-5 py-2 cursor-pointer hover:bg-[#fff4f2] transform transition-[0.3s]">
           Sign In
         </button>
       </div>
